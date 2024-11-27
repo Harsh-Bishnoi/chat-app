@@ -1,0 +1,243 @@
+@import url(../css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bg-color {
+    background-color: var(--bg-color-section-1) !important;
+}
+
+.head {
+    font-family: "Poppins", sans-serif;
+    line-height: 30.16px !important;
+}
+
+.app {
+    font-weight: 275 !important;
+}
+
+.btn {
+    background-color: var(--nav-btn-bg-color) !important;
+    border-radius: 210px !important;
+    border: none !important;
+    padding: 12px 24px !important;
+}
+
+.product {
+    font-family: "roboto", sans-serif;
+    line-height: 16px !important;
+    gap: 30px !important;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    line-height: 96.3px !important;
+}
+
+.fast {
+    font-family: "roboto", sans-serif;
+    padding-top: 20px !important;
+}
+
+.btn-2 {
+    font-family: "roboto", sans-serif;
+    border-radius: 60px !important;
+    padding: 16px 48px !important;
+    border: none;
+    background-color: var(--bg-color-section-1);
+    border: 1px solid;
+    color: var(--btn-2-bg-color);
+    margin-top: 60px;
+}
+
+.btn-2:hover {
+    background-color: var(--btn-2-bg-color);
+    color: var(--bg-color-section-1);
+}
+
+.btn-3 {
+    font-family: "roboto", sans-serif;
+    border-radius: 60px !important;
+    padding: 16px 48px !important;
+    margin-left: 36px !important;
+    background-color: var(--bg-color-section-1);
+    border: 1px solid;
+    color: var(--btn-2-bg-color);
+    margin-top: 60px;
+}
+
+.btn-3:hover {
+    border: none;
+    background-color: var(--btn-2-bg-color);
+    color: var(--bg-color-section-1);
+}
+
+.pt-140 {
+    padding-top: 140px;
+}
+
+.pt-200 {
+    padding-top: 200px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+/***** section 2 *****/
+.instant {
+    font-family: "Poppins", sans-serif;
+    line-height: 57.78px !important;
+    color: var(--section-2-color);
+    padding-top: 90px;
+}
+
+.lorem {
+    font-family: "Roboto", sans-serif;
+    line-height: 29.11px !important;
+    color: var(--section-2);
+    max-width: 545px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+/***** section 3 *****/
+
+.bg-color-2 {
+    background-color: var(--bg-color-section-3);
+}
+
+.perfect {
+    font-family: "Poppins", sans-serif;
+    line-height: 57.78px !important;
+    color: var(--section-2-color);
+    max-width: 467px;
+}
+
+.pricing {
+    font-family: "Roboto", sans-serif;
+    line-height: 33.96px !important;
+    opacity: 70%;
+    padding-top: 30px;
+}
+
+.btn-4 {
+    border: 1px solid;
+    border-color: var(--bg-color-section-1);
+    border-radius: 60px;
+    padding: 14px 46px !important;
+    background-color: var(--bg-color-section-3);
+    color: var(--bg-color-section-1);
+    margin-top: 60px;
+}
+
+.btn-4:hover {
+    background-color: var(--bg-color-section-1);
+    color: white;
+}
+
+.btn-5 {
+    border: 1px solid;
+    border-color: var(--bg-color-section-1);
+    border-radius: 60px;
+    padding: 14px 40px !important;
+    background-color: var(--bg-color-section-3);
+    color: var(--bg-color-section-1);
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.btn-5:hover {
+    background-color: var(--bg-color-section-1);
+    color: white;
+}
+
+.line {
+    max-width: 167px;
+    border: 1px solid;
+    color: var(--line-color);
+    margin-top: 90px;
+}
+
+.businesses {
+    max-width: 237px;
+    color: var(--section-2-color);
+}
+
+.gap-25 {
+    gap: 25px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+/***** footer *****/
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pt-18 {
+    padding-top: 18px;
+}
+
+.chat {
+    font-family: "Poppins", sans-serif;
+    color: var(--bg-color-section-1);
+}
+
+.app-2 {
+    font-weight: 200 !important;
+}
+
+.para {
+    font-family: "Roboto", sans-serif;
+    line-height: 24.25px;
+    max-width: 168px;
+    color: var(--section-2-color);
+    opacity: 70%;
+}
+
+.help {
+    font-family: "Poppins", sans-serif;
+    color: var(--section-2-color);
+    cursor: pointer;
+}
+
+.support {
+    font-family: "Roboto", sans-serif;
+    color: var(--section-2-color);
+    opacity: 70%;
+    line-height: 21px;
+}
+
+.end {
+    font-family: "Roboto", sans-serif;
+    color: var(--section-2-color);
+    opacity: 70%;
+    line-height: 21px;
+}
