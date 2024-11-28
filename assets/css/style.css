@@ -7,7 +7,6 @@
 }
 
 .head {
-    font-family: "Poppins", sans-serif;
     line-height: 30.16px !important;
 }
 
@@ -23,23 +22,20 @@
 }
 
 .product {
-    font-family: "roboto", sans-serif;
     line-height: 16px !important;
     gap: 30px !important;
 }
 
 .heading {
-    font-family: "Poppins", sans-serif;
     line-height: 96.3px !important;
+    max-width: 499px;
 }
 
 .fast {
-    font-family: "roboto", sans-serif;
     padding-top: 20px !important;
 }
 
 .btn-2 {
-    font-family: "roboto", sans-serif;
     border-radius: 60px !important;
     padding: 16px 48px !important;
     border: none;
@@ -55,7 +51,6 @@
 }
 
 .btn-3 {
-    font-family: "roboto", sans-serif;
     border-radius: 60px !important;
     padding: 16px 48px !important;
     margin-left: 36px !important;
@@ -85,14 +80,12 @@
 
 /***** section 2 *****/
 .instant {
-    font-family: "Poppins", sans-serif;
     line-height: 57.78px !important;
     color: var(--section-2-color);
     padding-top: 90px;
 }
 
 .lorem {
-    font-family: "Roboto", sans-serif;
     line-height: 29.11px !important;
     color: var(--section-2);
     max-width: 545px;
@@ -111,14 +104,12 @@
 }
 
 .perfect {
-    font-family: "Poppins", sans-serif;
     line-height: 57.78px !important;
     color: var(--section-2-color);
     max-width: 467px;
 }
 
 .pricing {
-    font-family: "Roboto", sans-serif;
     line-height: 33.96px !important;
     opacity: 70%;
     padding-top: 30px;
@@ -189,8 +180,8 @@
     margin-bottom: 5px;
 }
 
-.mt-180 {
-    margin-top: 180px;
+.mt-100 {
+    margin-top: 100px;
 }
 
 .mt-90 {
@@ -206,7 +197,6 @@
 }
 
 .chat {
-    font-family: "Poppins", sans-serif;
     color: var(--bg-color-section-1);
 }
 
@@ -215,7 +205,6 @@
 }
 
 .para {
-    font-family: "Roboto", sans-serif;
     line-height: 24.25px;
     max-width: 168px;
     color: var(--section-2-color);
@@ -223,21 +212,36 @@
 }
 
 .help {
-    font-family: "Poppins", sans-serif;
     color: var(--section-2-color);
     cursor: pointer;
 }
 
 .support {
-    font-family: "Roboto", sans-serif;
     color: var(--section-2-color);
     opacity: 70%;
     line-height: 21px;
 }
 
 .end {
-    font-family: "Roboto", sans-serif;
     color: var(--section-2-color);
     opacity: 70%;
     line-height: 21px;
+}
+
+@media (max-width:409px) {
+    .btn-2 {
+        padding: 10px 44px !important;
+    }
+
+    .btn-3 {
+        padding: 10px 44px !important;
+    }
+
+    .btn-4 {
+        padding: 10px 44px !important;
+    }
+
+    .btn-5 {
+        padding: 10px 44px !important;
+    }
 }

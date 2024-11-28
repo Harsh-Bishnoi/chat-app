@@ -1,11 +1,14 @@
 :root {
+    /***** color *****/
     --bg-color-section-1: #1E71FF;
     --nav-btn-bg-color: #FFFFFF33;
     --btn-2-bg-color: #FFFFFF;
-    --section-2-color:#2B353E;
-    --section-2:#2B353EB2;
-    --bg-color-section-3:#E9F1FF;
-    --line-color:#2B353E26;
+    --section-2-color: #2B353E;
+    --section-2: #2B353EB2;
+    --bg-color-section-3: #E9F1FF;
+    --line-color: #2B353E26;
+
+    /***** font size *****/
     --font-size-14: 14px;
     --font-size-26: 26px;
     --font-size-75: 75px;
@@ -15,8 +18,13 @@
     --font-size-21: 21px;
     --font-size-13: 13px;
     --font-size-15: 15px;
+
+    /***** font family *****/
+    --font-poppins: "Poppins", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
 }
 
+/***** font size *****/
 .font-size-14 {
     font-size: var(--font-size-14) !important;
 }
@@ -26,29 +34,38 @@
 }
 
 .font-size-75 {
-    font-size: var(--font-size-75);
+    font-size: var(--font-size-75) !important;
 }
 
 .font-size-21 {
-    font-size: var(--font-size-21);
+    font-size: var(--font-size-21) !important;
 }
 
 .font-size-45 {
-    font-size: var(--font-size-45);
+    font-size: var(--font-size-45) !important;
 }
 
 .font-size-18 {
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-18) !important;
 }
 
 .font-size-21 {
-    font-size: var(--font-size-21);
+    font-size: var(--font-size-21) !important;
 }
 
 .font-size-13 {
-    font-size: var(--font-size-13);
+    font-size: var(--font-size-13) !important;
 }
 
 .font-size-15 {
-    font-size: var(--font-size-15);
+    font-size: var(--font-size-15) !important;
+}
+
+/***** font family *****/
+.font-poppins {
+    font-family: var(--font-poppins);
+}
+
+.font-roboto {
+    font-family: var(--font-roboto);
 }
