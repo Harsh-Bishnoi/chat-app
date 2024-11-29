@@ -228,6 +228,15 @@
     line-height: 21px;
 }
 
+.img-1{
+    top: 5%;
+    left: 0%;
+    width: 50%;
+}
+
+.navbar-toggler{
+    margin-left: 87px;
+}
 @media (max-width:409px) {
     .btn-2 {
         padding: 10px 44px !important;
